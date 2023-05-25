@@ -1,10 +1,13 @@
 # WinMods
 Settings and Modifications for Windows
 
+**Disable Old TLS Protocols**
+See [Disable Old TLS Protocols] directory
 
 **DisableSearchBoxSuggestions**
 https://www.tomshardware.com/how-to/disable-windows-web-search
 See [DisableSearchBoxSuggestions] directory.
+
 
 
 **Disable Edge "Use Recommended Browser Settings"**
