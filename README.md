@@ -1,22 +1,22 @@
 # WinMods
 Settings and Modifications for Windows
 
-##Disable Old TLS Protocols
+## Disable Old TLS Protocols
 See [Disable Old TLS Protocols] directory
 
-##DisableSearchBoxSuggestions
+## DisableSearchBoxSuggestions
 https://www.tomshardware.com/how-to/disable-windows-web-search
 See [DisableSearchBoxSuggestions] directory.
 
 
 
-##Disable Edge "Use Recommended Browser Settings"
+## Disable Edge "Use Recommended Browser Settings"
 https://beebom.com/how-disable-use-recommended-browser-settings-microsoft-edge/
 edge://flags/#edge-show-feature-recommendations
 Set "Show feature and workflow recommendations" to Disable; then restart edge.
 
 
-##Disable Old Style Right Click in Windows11 FileExplorer
+## Disable Old Style Right Click in Windows11 FileExplorer
 https://www.xda-developers.com/how-to-open-full-right-click-menu-by-default-windows-11/
 
 To get back to old Win 10 style File Right Click menu.
