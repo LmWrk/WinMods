@@ -20,7 +20,7 @@ edge://flags/#edge-show-feature-recommendations
 Set "Show feature and workflow recommendations" to Disable; then restart edge.
 
 
-## Disable Old Style Right Click in Windows11 FileExplorer
+## Enable Old Style Right Click in Windows11 FileExplorer
 https://www.xda-developers.com/how-to-open-full-right-click-menu-by-default-windows-11/
 
 To get back to old Win 10 style File Right Click menu.
