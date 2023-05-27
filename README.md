@@ -16,8 +16,7 @@ See [DisableSearchBoxSuggestions] directory.
 ## Disable Edge "Use Recommended Browser Settings"
 https://beebom.com/how-disable-use-recommended-browser-settings-microsoft-edge/
 
-edge://flags/#edge-show-feature-recommendations
-
+edge://flags/#edge-show-feature-recommendations  
 Set "Show feature and workflow recommendations" to Disable; then restart edge.
 
 
