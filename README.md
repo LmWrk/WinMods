@@ -34,3 +34,10 @@ To get back to old Win 10 style File Right Click menu.
 To restore new context menu options (ie. revert back to default.)
 > reg.exe delete "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}" /f
 
+## Change Power Settings Quick
+
+Never Standby on AC
+> C:\Windows\System32\powercfg.exe -x standby-timeout-ac 0
+
+Standby in 30 min on AC
+> C:\Windows\System32\powercfg.exe -x standby-timeout-ac 30
