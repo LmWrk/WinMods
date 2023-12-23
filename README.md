@@ -13,10 +13,19 @@ See [DisableSearchBoxSuggestions] directory.
 
 
 ## Win10 Disable Reserved Storage
-See [Win10-ReservedStorage] directory
+[Option 1] See [Win10-ReservedStorage] directory for Regisytry method.
 
+To check status, run in PowerShell (As Admin):
+> DISM.exe /Online /Get-ReservedStorageState
 
+[Option 2]
+To disable Reserved Storage via DISM:
+> DISM.exe /Online /Set-ReservedStorageState /State:Disabled
 
+To enable Resverd Storage via DISM:
+> DISM.exe /Online /Set-ReservedStorageState /State:Enabled
+
+[Note: Setting only effective after Windows Update installs an update.]
 
 ## Disable Edge "Use Recommended Browser Settings"
 https://beebom.com/how-disable-use-recommended-browser-settings-microsoft-edge/
