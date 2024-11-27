@@ -53,7 +53,7 @@ Standby in 30 min on AC
 
 ## Uninstall widgets or OneDrive
 In PowerShell:
->'
+'
 winget uninstall “windows web experience pack”
 winget uninstall Microsoft.OneDrive
 '
