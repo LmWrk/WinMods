@@ -16,14 +16,14 @@ See [DisableSearchBoxSuggestions] directory.
 [Option 1] See [Win10-ReservedStorage] directory for Regisytry method.
 
 To check status, run in PowerShell (As Admin):
-> DISM.exe /Online /Get-ReservedStorageState
+`DISM.exe /Online /Get-ReservedStorageState` 
 
 [Option 2]
 To disable Reserved Storage via DISM:
-> DISM.exe /Online /Set-ReservedStorageState /State:Disabled
+`DISM.exe /Online /Set-ReservedStorageState /State:Disabled`
 
 To enable Resverd Storage via DISM:
-> DISM.exe /Online /Set-ReservedStorageState /State:Enabled
+`DISM.exe /Online /Set-ReservedStorageState /State:Enabled`
 
 [Note: Setting only effective after Windows Update installs an update.]
 
