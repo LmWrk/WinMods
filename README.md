@@ -50,3 +50,8 @@ Never Standby on AC
 
 Standby in 30 min on AC
 > C:\Windows\System32\powercfg.exe -x standby-timeout-ac 30
+
+## Uninstall widgets or OneDrive
+In PowerShell:
+> winget uninstall “windows web experience pack”
+> winget uninstall Microsoft.OneDrive
