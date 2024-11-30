@@ -57,3 +57,11 @@ In PowerShell:
 winget uninstall “windows web experience pack”
 winget uninstall Microsoft.OneDrive
 ```
+
+## Disable Lock Screen
+```
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Personalization]
+"NoLockScreen"=dword:00000001
+```
