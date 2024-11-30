@@ -65,3 +65,23 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Personalization]
 "NoLockScreen"=dword:00000001
 ```
+
+## Turn Num Lock ON for Login Screen
+```
+Windows Registry Editor Version 5.00
+
+[HKEY_USERS\.DEFAULT\Control Panel\Keyboard]
+"InitialKeyboardIndicators"="2147483650"
+```
+
+Other useful values
+| InitialKeyboardIndicators | Value	Description |
+| ------------------------- | ----------------- |
+| 2147483648	              | Turn all indicators off (NumLock, CapsLock, ScrollLock) |
+| 2147483649                | Turn CapsLock on |
+| 2147483650	              | Turn NumLock on |
+| 2147483651	              | Turn CapsLock and NumLock on |
+| 2147483652	              | Turn ScrollLock on |
+| 2147483653	              | Turn CapsLock and ScrollLock on |
+| 2147483654	              | Turn NumLock and ScrollLock on |
+| 2147483655	              | Turn all indicators on (NumLock, CapsLock, ScrollLock) |
